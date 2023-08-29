@@ -1,9 +1,13 @@
-# Personal homepage
-Build a personal homepage, including frontend website and backend server. The website is based on react.
+# Lichen's Personal Homepage
 
-## Frontend website
-- reference
-    - https://github.com/CaiMuCheng/home-page
-    - https://github.com/rywaroy/Homepage
+## Website
+- https://lichenhub.com
 
-## Backend server
+## Reference:
+- Template: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+- Icons: https://boxicons.com
+- Markdown to Html: https://github.com/showdownjs/showdown
+- Html to Pdf: https://github.com/eKoopmans/html2pdf.js
+
+## Tools:
+- Resize images: https://www.iloveimg.com/zh-cn/resize-image#resize-options,pixels
