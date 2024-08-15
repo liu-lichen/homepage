@@ -2,8 +2,8 @@
 
 ---
 
-- Phone: 18050208865
-- Email: liulichen0603@163.com
+- Phone: 18068001081
+- Email: liu.lichen@outlook.com
 - WeChat: 291988710
 
 # Personal Info
@@ -15,7 +15,7 @@
 - Birth: 1993.06.03
 - Degree: Bachelor of Computer Science and Technology in Southeast University
 - Working experience: 9 years
-- GitHub: https://github.com/liulichen0603
+- GitHub: https://github.com/liu-lichen
 
 # Work Experience
 

@@ -2,8 +2,8 @@
 
 ---
 
-- 电话: 18050208865
-- 邮箱: liulichen0603@163.com
+- 电话: 18068001081
+- 邮箱: liu.lichen@outlook.com
 - 微信: 291988710
 
 # 个人信息
@@ -15,7 +15,7 @@
 - 出生日期: 1993.06.03
 - 学历: 东南大学，计算机科学与技术，本科
 - 工作经验: 9年
-- GitHub: https://github.com/liulichen0603
+- GitHub: https://github.com/liu-lichen
 
 # 工作经历
 

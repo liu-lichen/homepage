@@ -1,7 +1,7 @@
 # Lichen's Personal Homepage
 
 ## Website
-- https://lichenhub.com
+- https://liu-lichen.github.io/homepage/
 
 ## Reference:
 - Template: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
