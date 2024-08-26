@@ -6,7 +6,7 @@
 * License: https://bootstrapmade.com/license/
 */
 
-(function() {
+(function () {
   "use strict";
 
   /**
@@ -92,7 +92,7 @@
   /**
    * Mobile nav toggle
    */
-  on('click', '.mobile-nav-toggle', function(e) {
+  on('click', '.mobile-nav-toggle', function (e) {
     select('body').classList.toggle('mobile-nav-active')
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
@@ -101,7 +101,7 @@
   /**
    * Scrool with ofset on links with a class name .scrollto
    */
-  on('click', '.scrollto', function(e) {
+  on('click', '.scrollto', function (e) {
     if (select(this.hash)) {
       e.preventDefault()
 
@@ -120,39 +120,39 @@
    * Start to generate resume with specific class name
    */
   function saveHTML(htmlContent, fileName) {
-    var blob = new Blob([htmlContent], {type: 'text/html'});
-    var a = document.createElement('a');
-    a.href = window.URL.createObjectURL(blob);
+    // var blob = new Blob([htmlContent], {type: 'text/html'});
+    // var a = document.createElement('a');
+    // a.href = window.URL.createObjectURL(blob);
 
-    // 设置文件名并添加下载属性
-    a.download = fileName;
+    // // 设置文件名并添加下载属性
+    // a.download = fileName;
 
-    // 将 <a> 元素添加到页面中并模拟点击
-    document.body.appendChild(a);
-    a.click();
+    // // 将 <a> 元素添加到页面中并模拟点击
+    // document.body.appendChild(a);
+    // a.click();
 
-    // 清理
-    window.URL.revokeObjectURL(a.href);
-    document.body.removeChild(a);
+    // // 清理
+    // window.URL.revokeObjectURL(a.href);
+    // document.body.removeChild(a);
   }
   function generateResume(file_name) {
     var converter = new showdown.Converter()
     fetch(file_name)
-    .then(response => response.text())
-    .then(data => {
-      var html = converter.makeHtml(data);
-      html = "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n" + html + "\n</body>\n</html>";
-      // html2pdf().set({filename:'resume.pdf'}).from(html).save();
-      saveHTML(html, 'resume.html');
-    })
-    .catch(error => {
-      console.error('Error:', error);
-    });
+      .then(response => response.text())
+      .then(data => {
+        var html = converter.makeHtml(data);
+        html = "<!DOCTYPE html>\n<html lang=\"en\">\n<body>\n" + html + "\n</body>\n</html>";
+        // html2pdf().set({filename:'resume.pdf'}).from(html).save();
+        saveHTML(html, 'resume.html');
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
   }
-  on('click', '.download-english-resume', function(e) {
+  on('click', '.download-english-resume', function (e) {
     generateResume('resume/resume_english.md');
   })
-  on('click', '.download-chinese-resume', function(e) {
+  on('click', '.download-chinese-resume', function (e) {
     generateResume('resume/resume_chinese.md');
   })
 
@@ -191,7 +191,7 @@
     new Waypoint({
       element: skilsContent,
       offset: '80%',
-      handler: function(direction) {
+      handler: function (direction) {
         let progress = select('.progress .progress-bar', true);
         progress.forEach((el) => {
           el.style.width = el.getAttribute('aria-valuenow') + '%'
@@ -212,9 +212,9 @@
 
       let portfolioFilters = select('#portfolio-flters li', true);
 
-      on('click', '#portfolio-flters li', function(e) {
+      on('click', '#portfolio-flters li', function (e) {
         e.preventDefault();
-        portfolioFilters.forEach(function(el) {
+        portfolioFilters.forEach(function (el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');
@@ -222,7 +222,7 @@
         portfolioIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
-        portfolioIsotope.on('arrangeComplete', function() {
+        portfolioIsotope.on('arrangeComplete', function () {
           AOS.refresh()
         });
       }, true);
