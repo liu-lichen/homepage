@@ -120,20 +120,20 @@
    * Start to generate resume with specific class name
    */
   function saveHTML(htmlContent, fileName) {
-    // var blob = new Blob([htmlContent], {type: 'text/html'});
-    // var a = document.createElement('a');
-    // a.href = window.URL.createObjectURL(blob);
+    var blob = new Blob([htmlContent], { type: 'text/html' });
+    var a = document.createElement('a');
+    a.href = window.URL.createObjectURL(blob);
 
-    // // 设置文件名并添加下载属性
-    // a.download = fileName;
+    // 设置文件名并添加下载属性
+    a.download = fileName;
 
-    // // 将 <a> 元素添加到页面中并模拟点击
-    // document.body.appendChild(a);
-    // a.click();
+    // 将 <a> 元素添加到页面中并模拟点击
+    document.body.appendChild(a);
+    a.click();
 
-    // // 清理
-    // window.URL.revokeObjectURL(a.href);
-    // document.body.removeChild(a);
+    // 清理
+    window.URL.revokeObjectURL(a.href);
+    document.body.removeChild(a);
   }
   function generateResume(file_name) {
     var converter = new showdown.Converter()

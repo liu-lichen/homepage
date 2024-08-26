@@ -694,6 +694,32 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Blogs
+--------------------------------------------------------------*/
+.blogs .blogs-box {
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+  margin: 10px;
+  height: 45%;
+}
+
+.blogs .title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.blogs .title a {
+  color: #343a40;
+}
+
+.blogs .title a:hover {
+  color: #149ddd;
+}
+
+/*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
 .resume .resume-box {

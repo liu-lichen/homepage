@@ -10,6 +10,7 @@
 - Icons: https://boxicons.com
 - Markdown to Html: https://github.com/showdownjs/showdown
 - Html to Pdf: https://github.com/eKoopmans/html2pdf.js
+- Icon-sets: https://icon-sets.iconify.design
 
 ## Tools:
 
