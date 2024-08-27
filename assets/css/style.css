@@ -719,6 +719,28 @@ section {
   color: #149ddd;
 }
 
+.blogs-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.blogs-item a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.blogs-item a:hover {
+  text-decoration: underline;
+}
+
+.blogs-item-meta {
+  color: #777;
+  font-size: 0.9em;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
