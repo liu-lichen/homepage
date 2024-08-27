@@ -16,8 +16,3 @@
 
 - Resize images: https://www.iloveimg.com/zh-cn/resize-image#resize-options,pixels
 - Visual Studio Code Extension - Markdown All in One
-
-# Todo:
-
-- Add chromium project to portfilio
-- Add blogs module
