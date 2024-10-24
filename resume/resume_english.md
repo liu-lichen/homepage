@@ -3,7 +3,7 @@
 ---
 
 - Phone: 18068001081
-- Email: liu.lichen@outlook.com
+- Email: liu.lichen63@gmail.com
 - WeChat: 291988710
 
 # Personal Info
