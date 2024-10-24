@@ -3,7 +3,7 @@
 ---
 
 - 电话: 18068001081
-- 邮箱: liu.lichen@outlook.com
+- 邮箱: liu.lichen63@gmail.com
 - 微信: 291988710
 
 # 个人信息
