@@ -14,7 +14,6 @@
 - Gender: Male
 - Birth: 1993.06.03
 - Degree: Bachelor of Computer Science and Technology in Southeast University
-- Working experience: 9 years
 - GitHub: https://github.com/liu-lichen
 
 # Work Experience
@@ -22,8 +21,6 @@
 ---
 
 ## Microsoft (China) Co., Ltd. (Suzhou Branch) (aka STCA) (2021.08 - Present)
-
----
 
 ### Edge WebView2 Windows
 
@@ -39,8 +36,6 @@ Contributed significantly to various other projects about Edge, such as integrat
 
 ## Netdragon Websoft Inc. (2015.07 - 2021.07)
 
----
-
 ### Heroes Evolved
 
 As a key member, participate in the development of the Heroes Evolved project, responsible for implementing the game platform functionality modules, developing the in-game combat modules, and constructing the entire sound functionality framework.
@@ -55,19 +50,9 @@ Responsible for the development of game tools, including model editors, map edit
 
 ## Huawei Institute of Nanjing (2014.07 - 2014.12)
 
----
-
 ### Network System
 
 Participate in the function development of the network operating system as an intern, add the minitask module, implement basic data processing operations and processes, and solve problems such as the failure of automatic scheduling of CI branch scripts.
-
-# Education Experience
-
----
-
-## Bachelor: Southeast University (2011.09 - 2015.06)
-
-Major in Computer Science and Technology, with a focus on courses covering Computer Organization, Compiler Principles, Data Structures, Programming Fundamentals, and Image Processing.
 
 # Open Source Projects
 
@@ -76,6 +61,14 @@ Major in Computer Science and Technology, with a focus on courses covering Compu
 ## [Chromium](https://source.chromium.org/)
 
 - https://chromium-review.googlesource.com/q/owner:lichenliu@microsoft.com
+
+# Education Experience
+
+---
+
+## Bachelor: Southeast University (2011.09 - 2015.06)
+
+Major in Computer Science and Technology, with a focus on courses covering Computer Organization, Compiler Principles, Data Structures, Programming Fundamentals, and Image Processing.
 
 # Technical Skills
 
