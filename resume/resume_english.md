@@ -2,9 +2,9 @@
 
 ---
 
-- Phone: 18068001081
+- LinkedIn: https://www.linkedin.com/in/lichen-liu
+- GitHub: https://github.com/liu-lichen
 - Email: liu.lichen63@gmail.com
-- WeChat: 291988710
 
 # Personal Info
 
@@ -75,7 +75,7 @@ Major in Computer Science and Technology, with a focus on courses covering Compu
 
 ## [Chromium](https://source.chromium.org/)
 
-- TODO
+- https://chromium-review.googlesource.com/q/owner:lichenliu@microsoft.com
 
 # Technical Skills
 

@@ -1,10 +1,9 @@
 # 联系方式
 
 ---
-
-- 电话: 18068001081
+- 领英: https://www.linkedin.com/in/lichen-liu
+- GitHub: https://github.com/liu-lichen
 - 邮箱: liu.lichen63@gmail.com
-- 微信: 291988710
 
 # 个人信息
 
@@ -75,7 +74,7 @@
 
 ## [Chromium](https://source.chromium.org/)
 
-- TODO
+- https://chromium-review.googlesource.com/q/owner:lichenliu@microsoft.com
 
 # 技能清单
 
